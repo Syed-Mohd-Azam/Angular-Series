@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { EmployeeComponent } from './employee/employee.component';
+import { Book } from './book';
 class abc {
   constructor() {
     console.log('abc constructor called!! ');
@@ -12,10 +13,11 @@ class abc {
   imports: [RouterOutlet, EmployeeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
+  viewProviders: [abc, Book],
 })
 export class AppComponent {
   title = 'angular-series';
-  constructor() {
+  constructor(private abc: abc, private book: Book) {
     console.log('AppComponent Constructor Called!!');
   }
 }
