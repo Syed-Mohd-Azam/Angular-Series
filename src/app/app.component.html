@@ -13,3 +13,8 @@
   <input type="radio" name="gender" checked (click)="setGender(true)" />Male
   <input type="radio" name="gender" (click)="setGender(false)" />Female
 </div>
+@if(gender){
+<div class="middle space">I am a Male</div>
+}@else {
+<div class="middle space">I am a Female</div>
+}
