@@ -15,3 +15,7 @@ h1 {
   font-size: large;
   color: purple;
 }
+.extra {
+  color: blue;
+  margin-top: 10px;
+}

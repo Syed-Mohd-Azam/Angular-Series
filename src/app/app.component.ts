@@ -17,6 +17,7 @@ class abc {
 })
 export class AppComponent {
   isLoggedIn: boolean = false;
+  gender: boolean = true;
   title = 'angular-series';
   constructor(private abc: abc, private book: Book) {
     console.log('AppComponent Constructor Called!!');
@@ -26,5 +27,8 @@ export class AppComponent {
   }
   logout() {
     this.isLoggedIn = false;
+  }
+  setGender(value: any) {
+    this.gender = value;
   }
 }
