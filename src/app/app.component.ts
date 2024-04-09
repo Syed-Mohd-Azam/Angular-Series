@@ -21,4 +21,10 @@ export class AppComponent {
   constructor(private abc: abc, private book: Book) {
     console.log('AppComponent Constructor Called!!');
   }
+  login() {
+    this.isLoggedIn = true;
+  }
+  logout() {
+    this.isLoggedIn = false;
+  }
 }

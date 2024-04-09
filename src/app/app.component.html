@@ -1,7 +1,11 @@
 <h1 class="font">Welcome to Angular Series!</h1>
 <app-employee />
+<div class="middle">
+  <button class="middle" (click)="login()">Login</button>
+  <button class="middle" (click)="logout()">Logout</button>
+</div>
 @if (isLoggedIn) {
-<div>User is Logged In</div>
+<div class="middle">User is Logged In</div>
 }@else {
-<div>User is Logged out</div>
+<div class="middle space">User is Logged out</div>
 }

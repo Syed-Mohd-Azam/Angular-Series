@@ -6,3 +6,12 @@
 h1 {
   background-color: lightblue;
 }
+.middle {
+  text-align: center;
+}
+.space {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: large;
+  color: purple;
+}
