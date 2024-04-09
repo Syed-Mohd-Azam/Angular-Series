@@ -18,6 +18,8 @@ class abc {
 export class AppComponent {
   isLoggedIn: boolean = false;
   gender: boolean = true;
+  numberOne: number = 65;
+  numberTwo: number = 65;
   title = 'angular-series';
   constructor(private abc: abc, private book: Book) {
     console.log('AppComponent Constructor Called!!');
