@@ -22,6 +22,32 @@ export class AppComponent {
   numberOne: number = 65;
   numberTwo: number = 65;
   title = 'angular-series';
+  employees: any[] = [
+    {
+      id: 100,
+      name: 'Syed Mohd Azam',
+    },
+    {
+      id: 101,
+      name: 'Abdul Ahad Mirza',
+    },
+    {
+      id: 102,
+      name: 'Nazim Ali Pasha',
+    },
+    {
+      id: 103,
+      name: 'Syed Hasan Uddin',
+    },
+    {
+      id: 104,
+      name: 'Syed Aqib Uddin',
+    },
+    {
+      id: 105,
+      name: 'Syed Anas Uddin',
+    },
+  ];
   constructor(private abc: abc, private book: Book) {
     console.log('AppComponent Constructor Called!!');
   }
