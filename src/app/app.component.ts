@@ -17,6 +17,7 @@ class abc {
 })
 export class AppComponent {
   isLoggedIn: boolean = false;
+  name: string = 'Mohan';
   gender: boolean = true;
   numberOne: number = 65;
   numberTwo: number = 65;
