@@ -1,1 +1,1 @@
-# Angular Series
+# 🧡Angular Series!
